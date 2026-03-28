@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+scikit-surprise
+pymongo
+python-dotenv
+pydantic

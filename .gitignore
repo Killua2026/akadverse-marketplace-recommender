@@ -1,2 +1,35 @@
+# Virtual Environments
 venv/
+env/
+ENV/
+
+# Environment Variables
 .env
+.env.local
+.env.*.local
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-Specific
+.cache/
+*.db
+*.sqlite
+*.pkl
+model_*.pkl
+recommendations_cache/
+
+# OS-Specific
+Thumbs.db
