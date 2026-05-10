@@ -1,6 +1,6 @@
 # AkadVerse: Marketplace Recommender
 
-**Tier 3 Algorithm / Classical ML | Microservice Port: `8001`**
+**Tier 3 Algorithm / Classical ML | Microservice Port: `8004`**
 
 Drives the campus economy by providing personalized product and service recommendations using collaborative filtering and real-time sentiment analysis.
 
@@ -114,7 +114,7 @@ MONGO_URI=your_mongodb_connection_string_here
 ## Running the Server
 
 ```bash
-uvicorn marketplace_api:app --host 127.0.0.1 --port 8001 --reload
+uvicorn marketplace_api:app --host 127.0.0.1 --port 8004 --reload
 ```
 
 Expected terminal output:
@@ -122,7 +122,7 @@ Expected terminal output:
 ```
 Refreshing AkadVerse marketplace AI model...
 Model training complete.
-[INFO] Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+[INFO] Uvicorn running on http://127.0.0.1:8004 (Press CTRL+C to quit)
 ```
 
 ## API Endpoints
@@ -151,7 +151,7 @@ Model training complete.
 ## Testing with Swagger UI
 
 With the server running, open:
-[http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs)
+[http://127.0.0.1:8004/docs](http://127.0.0.1:8004/docs)
 
 ## Example Test Inputs
 
